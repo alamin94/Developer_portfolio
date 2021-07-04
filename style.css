@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    display: flex;
+    /* display: flex; */
     height: 500px;
     padding-bottom: 150px;
 }
@@ -47,7 +47,34 @@ h2{
     font-size: 40px;
 }
 
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
 
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(18, 21, 202), rgb(79, 189, 28));
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(173, 25, 166), rgb(221, 115, 44));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
 
 
 
